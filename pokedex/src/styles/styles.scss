@@ -1,0 +1,36 @@
+.pokeCard {
+    display:flex;
+    flex-direction: column;
+    background: #ffa259;
+    border: solid 5px #fa4252;
+    border-radius: 15px;
+    width: 15%; 
+    margin: 2%;
+    align-items: center;
+    
+
+}
+
+.container {
+    width: 100%;
+}
+
+
+    
+h1 {
+    text-align: center;
+}
+
+
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+p {
+    text-transform: capitalize;
+}
+
+
+

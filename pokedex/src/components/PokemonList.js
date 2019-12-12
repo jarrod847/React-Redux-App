@@ -13,9 +13,9 @@ const PokemonList = (props) => {
     console.log(props.pokemon)
 
     return (
-        <div>
+        <div className="list">
             {props.pokemon.map(pokemon => {
-                return <Pokemon pokemon={pokemon} url={pokemon.url}/>
+                return <Pokemon pokemon={pokemon} url={pokemon.url} />
             })}
         </div>
     )
